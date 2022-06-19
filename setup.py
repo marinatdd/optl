@@ -1,34 +1,5 @@
 from setuptools import setup, find_packages
 import os
-"""Установка объекта sympy функции из строки.
-    Количество переменных проверяется. Отображение функции настраивается.
-
-    Parameters
-    ===========
-
-    input_investigated_function: str
-        Входная строка с функцией
-    functions_symbols: tuple, optional
-        Переменные функции
-    functions_title: str
-        Заголовок для отображения
-    functions_designation: str
-        Обозначение для отображения
-    is_display_input: bool
-        Отображать входную функцию или нет
-    _is_system: bool
-        Вызов функции программой или нет
-
-    Returns
-    ===========
-
-    input_investigated_function: str
-        Входная строка с функцией
-    investigated_function: sympy
-        Исследуемая функция
-    functions_symbols: tuple
-        Переменные функции
-    """
 
 
 
